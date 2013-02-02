@@ -10,13 +10,13 @@ import br.com.qualifiers.business.annotation.Dental;
 public class BeneficiarioDentalBusinessImpl implements BeneficiarioBusiness {
 
 	@Override
-	public void buscarPorMarcaOtica() {
-		System.out.println("Beneficiario Dental Marca Otica");
+	public String buscarPorMarcaOtica() {
+		return "111222333";
 	}
 
 	@Override
-	public void buscarPorCpf() {
-		System.out.println("Beneficiario Dental Cpf");		
+	public String buscarPorCpf() {
+		return "12345678910";
 	}
 
 }

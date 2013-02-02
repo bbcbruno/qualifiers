@@ -16,8 +16,8 @@ public class SaudeController {
 	public SaudeController() {
 	}
 	
-	public void index(){
-		beneficiarioBusiness.buscarPorMarcaOtica();
+	public String exibirMarcaOtica(){
+		return beneficiarioBusiness.buscarPorMarcaOtica();
 	}
 
 }

@@ -10,13 +10,13 @@ import br.com.qualifiers.business.annotation.Saude;
 public class BeneficiarioSaudeBusinessImpl implements BeneficiarioBusiness {
 
 	@Override
-	public void buscarPorMarcaOtica() {
-		System.out.println("Beneficiario Saude Marca Otica");
+	public String buscarPorMarcaOtica() {
+		return "123456789";
 	}
 
 	@Override
-	public void buscarPorCpf() {
-		System.out.println("Beneficiario Saude Cpf");
+	public String buscarPorCpf() {
+		return "00000001406";
 	}
 
 }

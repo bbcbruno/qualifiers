@@ -16,8 +16,8 @@ public class DentalController {
 	public DentalController() {
 	}
 	
-	public void index(){
-		beneficiarioBusiness.buscarPorMarcaOtica();
+	public String exibirMarcaOtica() {
+		return beneficiarioBusiness.buscarPorMarcaOtica();
 	}
 	
 }
